@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA17904918D85664009B9F5C /* LeaderboardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA17904818D85664009B9F5C /* LeaderboardDetailViewController.m */; };
+		AA84C4F618BF8F960035EC59 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA84C4F518BF8F960035EC59 /* LoginViewController.m */; };
+		AA8F9CD718D1F5AD0011A76E /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F9CD618D1F5AD0011A76E /* LeaderboardViewController.m */; };
+		AA8F9CDA18D1F8840011A76E /* Leaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F9CD918D1F8840011A76E /* Leaderboard.m */; };
+		CA085DF918BB4F2E00F3F97A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA085DF818BB4F2E00F3F97A /* DetailViewController.m */; };
 		CAF6B0E518B6140900EF2F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF6B0E418B6140900EF2F8E /* Foundation.framework */; };
 		CAF6B0E718B6140900EF2F8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF6B0E618B6140900EF2F8E /* CoreGraphics.framework */; };
 		CAF6B0E918B6140900EF2F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF6B0E818B6140900EF2F8E /* UIKit.framework */; };
@@ -19,6 +24,9 @@
 		CAF6B10018B6140900EF2F8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF6B0E818B6140900EF2F8E /* UIKit.framework */; };
 		CAF6B10818B6140900EF2F8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAF6B10618B6140900EF2F8E /* InfoPlist.strings */; };
 		CAF6B10A18B6140900EF2F8E /* jsontestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6B10918B6140900EF2F8E /* jsontestTests.m */; };
+		CAF6B11418B614CF00EF2F8E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF6B11318B614CF00EF2F8E /* MainStoryboard.storyboard */; };
+		CAF6B11718B6188F00EF2F8E /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6B11618B6188F00EF2F8E /* PlayersViewController.m */; };
+		CAF6B11A18B61B0200EF2F8E /* Players.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6B11918B61B0200EF2F8E /* Players.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA17904718D85664009B9F5C /* LeaderboardDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardDetailViewController.h; sourceTree = "<group>"; };
+		AA17904818D85664009B9F5C /* LeaderboardDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardDetailViewController.m; sourceTree = "<group>"; };
+		AA84C4F418BF8F960035EC59 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AA84C4F518BF8F960035EC59 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AA8F9CD518D1F5AD0011A76E /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		AA8F9CD618D1F5AD0011A76E /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
+		AA8F9CD818D1F8840011A76E /* Leaderboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaderboard.h; sourceTree = "<group>"; };
+		AA8F9CD918D1F8840011A76E /* Leaderboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaderboard.m; sourceTree = "<group>"; };
+		CA085DF718BB4F2E00F3F97A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CA085DF818BB4F2E00F3F97A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		CAF6B0E118B6140900EF2F8E /* jsontest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsontest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF6B0E418B6140900EF2F8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CAF6B0E618B6140900EF2F8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +66,11 @@
 		CAF6B10518B6140900EF2F8E /* jsontestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jsontestTests-Info.plist"; sourceTree = "<group>"; };
 		CAF6B10718B6140900EF2F8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CAF6B10918B6140900EF2F8E /* jsontestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jsontestTests.m; sourceTree = "<group>"; };
+		CAF6B11318B614CF00EF2F8E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CAF6B11518B6188F00EF2F8E /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
+		CAF6B11618B6188F00EF2F8E /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
+		CAF6B11818B61B0200EF2F8E /* Players.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Players.h; sourceTree = "<group>"; };
+		CAF6B11918B61B0200EF2F8E /* Players.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Players.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +134,21 @@
 				CAF6B0F418B6140900EF2F8E /* AppDelegate.m */,
 				CAF6B0F618B6140900EF2F8E /* Images.xcassets */,
 				CAF6B0EB18B6140900EF2F8E /* Supporting Files */,
+				CAF6B11318B614CF00EF2F8E /* MainStoryboard.storyboard */,
+				CAF6B11518B6188F00EF2F8E /* PlayersViewController.h */,
+				CAF6B11618B6188F00EF2F8E /* PlayersViewController.m */,
+				CAF6B11818B61B0200EF2F8E /* Players.h */,
+				CAF6B11918B61B0200EF2F8E /* Players.m */,
+				CA085DF718BB4F2E00F3F97A /* DetailViewController.h */,
+				CA085DF818BB4F2E00F3F97A /* DetailViewController.m */,
+				AA84C4F418BF8F960035EC59 /* LoginViewController.h */,
+				AA84C4F518BF8F960035EC59 /* LoginViewController.m */,
+				AA8F9CD518D1F5AD0011A76E /* LeaderboardViewController.h */,
+				AA8F9CD618D1F5AD0011A76E /* LeaderboardViewController.m */,
+				AA8F9CD818D1F8840011A76E /* Leaderboard.h */,
+				AA8F9CD918D1F8840011A76E /* Leaderboard.m */,
+				AA17904718D85664009B9F5C /* LeaderboardDetailViewController.h */,
+				AA17904818D85664009B9F5C /* LeaderboardDetailViewController.m */,
 			);
 			path = jsontest;
 			sourceTree = "<group>";
@@ -219,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF6B11418B614CF00EF2F8E /* MainStoryboard.storyboard in Resources */,
 				CAF6B0EF18B6140900EF2F8E /* InfoPlist.strings in Resources */,
 				CAF6B0F718B6140900EF2F8E /* Images.xcassets in Resources */,
 			);
@@ -239,6 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA085DF918BB4F2E00F3F97A /* DetailViewController.m in Sources */,
+				AA8F9CD718D1F5AD0011A76E /* LeaderboardViewController.m in Sources */,
+				CAF6B11A18B61B0200EF2F8E /* Players.m in Sources */,
+				AA17904918D85664009B9F5C /* LeaderboardDetailViewController.m in Sources */,
+				AA84C4F618BF8F960035EC59 /* LoginViewController.m in Sources */,
+				CAF6B11718B6188F00EF2F8E /* PlayersViewController.m in Sources */,
+				AA8F9CDA18D1F8840011A76E /* Leaderboard.m in Sources */,
 				CAF6B0F518B6140900EF2F8E /* AppDelegate.m in Sources */,
 				CAF6B0F118B6140900EF2F8E /* main.m in Sources */,
 			);
@@ -441,6 +487,7 @@
 				CAF6B10F18B6140900EF2F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAF6B11018B6140900EF2F8E /* Build configuration list for PBXNativeTarget "jsontestTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +496,7 @@
 				CAF6B11218B6140900EF2F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
